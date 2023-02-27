@@ -10,6 +10,7 @@ import {
 } from "react-bulma-components";
 
 import Home from "./home";
+import About from "./about";
 
 import logo from "../assets/logov2.png";
 
@@ -89,7 +90,7 @@ function PageNav(props) {
                 <Navbar.Item onClick={() => setActiveComponent(<Home />)}>
                   Home
                 </Navbar.Item>
-                <Navbar.Item onClick={() => setActiveComponent(<Home />)}>
+                <Navbar.Item onClick={() => setActiveComponent(<About />)}>
                   About
                 </Navbar.Item>
                 <Navbar.Item onClick={() => setActiveComponent(<Home />)}>
@@ -103,8 +104,8 @@ function PageNav(props) {
           </Container>
         </Navbar>
       </Hero>
-      <Hero className="align-items-center mx-auto py-4 header banner-hero is-size-3">
-        <h3 className="mx-1">
+      <Hero className="py-4 header banner-hero ">
+        <h3 className="mx-1 is-size-3 is-size-5-tablet is-size-6-mobile ">
           Our placement services are 100% free to you and your family
         </h3>
       </Hero>

@@ -73,3 +73,25 @@
   border-style: solid;
   border-width: 1px;
 }
+
+.smallLinks {
+  text-align: right;
+  font-size: 10px;
+}
+
+.testimonial {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.testimonial-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
