@@ -18,25 +18,34 @@ const About = () => {
       <Container className="mainContent py-3">
         <Box className="has-background-primary-light">
           <Columns className="is-vcentered">
-            <Columns.Column className="is-one-fifth" size={5}>
-              <Button className="has-background-success">
-                Get A Personalized Care Strategy
-              </Button>
+            <Columns.Column className="is-one-" size={5}>
+              <Columns className="is-centered"><Columns.Column size={10}>
+                <a href="tel:6025656101">
+                  <Box className="has-background-success ">
+                    {" "}
+                    <Content className="is-size-5 is-size-6-mobile">
+                      Get A Personalized Care Strategy{" "}
+                    </Content>
+                  </Box>
+                </a>
+                </Columns.Column>
+                </Columns>
+              
             </Columns.Column>
             <Columns.Column className="is-half">
-            <Block>
-              <Content className="is-size-6">
-                We're here to guide you through the entire process. We won't
-                just send you a list of resources and hope for the best. <br />{" "}
-                Our team will work closely with you and your family every step
-                of the way, touring homes and providing expert guidance to help
-                you find a care facility that fits your unique needs. Our
-                personalized approach sets us apart from other placement
-                agencies. <br /> <hr />
-                We believe that every story deserves individualized attention
-                and care, and we're committed to finding the perfect fit for
-                your family.
-              </Content>
+              <Block>
+                <Content className="is-size-6">
+                  We're here to guide you through the entire process. We won't
+                  just send you a list of resources and hope for the best.{" "}
+                  <br /> Our team will work closely with you and your family
+                  every step of the way, touring homes and providing expert
+                  guidance to help you find a care facility that fits your
+                  unique needs. Our personalized approach sets us apart from
+                  other placement agencies. <br /> <hr />
+                  We believe that every story deserves individualized attention
+                  and care, and we're committed to finding the perfect fit for
+                  your family.
+                </Content>
               </Block>
             </Columns.Column>
           </Columns>

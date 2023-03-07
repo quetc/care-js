@@ -74,9 +74,10 @@ function Home() {
                 loved one.
               </p>
               <br />{" "}
-              <Button className="is-info"> <a href="tel:6025656101"/> 
+              <a href="tel:6025656101">
+              <Button className="is-info">  
                 Learn about placement options
-              </Button>
+              </Button></a>
             </Block>
           </Columns.Column>
           <Columns.Column className="mx-4">
