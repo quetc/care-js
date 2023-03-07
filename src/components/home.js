@@ -17,10 +17,11 @@ import grbg from "../assets/grbg.jpeg";
 import how from "../assets/How-we-help.jpeg";
 
 function Home() {
+  
   return (
     <div style={{ backgroundColor: "#EDEAE5" }}>
       <Hero
-        className="is-large is-primary is-mobile mainContent"
+        className="is-large is-mobile mainContent"
         style={{ backgroundImage: `url(${grbg})`, backgroundSize: "cover" }}
       >
         <Container>
@@ -73,7 +74,7 @@ function Home() {
                 loved one.
               </p>
               <br />{" "}
-              <Button className="is-info" href="placement">
+              <Button className="is-info"> <a href="tel:6025656101"/> 
                 Learn about placement options
               </Button>
             </Block>
@@ -89,9 +90,9 @@ function Home() {
         </Columns>
       </Section>
       
-        <Box className="pb-6">
+        <div className="pb-6">
           <TestimonialCarousel />
-        </Box>
+        </div>
         </Container>
       
 

@@ -11,6 +11,8 @@ import {
 
 import Home from "./home";
 import About from "./about";
+import Placement from "./placement";
+import FormSwitch from "./formSwitch";
 
 import logo from "../assets/logov2.png";
 
@@ -93,10 +95,10 @@ function PageNav(props) {
                 <Navbar.Item onClick={() => setActiveComponent(<About />)}>
                   About
                 </Navbar.Item>
-                <Navbar.Item onClick={() => setActiveComponent(<Home />)}>
+                <Navbar.Item onClick={() => setActiveComponent(<Placement />)}>
                   Placement
                 </Navbar.Item>
-                <Navbar.Item onClick={() => setActiveComponent(<Home />)}>
+                <Navbar.Item onClick={() => setActiveComponent(<FormSwitch />)}>
                   Contact
                 </Navbar.Item>
               </Navbar.Container>

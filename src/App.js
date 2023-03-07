@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+
 
 
 
@@ -14,14 +14,14 @@ function App() {
   const [activeComponent, setActiveComponent] = useState(<Home />);
 
   return (
-    <Router>
+
       
       <div className="App">
         <Pagenav setActiveComponent={setActiveComponent} />
         <div className="main">{activeComponent}</div>
         <Footer />
       </div>
-    </Router>
+
   );
 }
 
